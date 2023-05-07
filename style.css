@@ -1,0 +1,313 @@
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Rye', cursive;
+font-family: 'Tajawal', sans-serif; */
+.nav{
+      position: fixed;
+      width: 100%;
+}
+.nav-title{
+            font-family: 'Rye', cursive;
+            letter-spacing: 3px;
+
+
+}
+
+
+
+.pages{
+    font-family: 'Nunito', sans-serif;
+            font-weight: 700;
+            color: white;
+    --c:linear-gradient(#ffffff 0 0); /* update the color here */
+    
+    padding-bottom: .15em;
+    background: var(--c), var(--c);
+    background-size: .3em .1em;
+    background-position:50% 100%;
+    background-repeat: no-repeat;
+    transition: .3s linear, background-size .3s .2s linear;
+  }
+  .pages:hover {
+    background-size: 40% .1em;
+    background-position: 10% 100%, 90% 100%;
+  }
+
+  
+.sec-1{
+            
+            background-image: url('images/Untitled\ design.png');
+            background-size: cover;
+            padding-top: 80px;
+            height: 100vh;
+}
+
+.top-right-div{
+                
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 5px rgba(0, 0, 0, 0.19);
+                border-radius: 10px;
+                padding: 10px;
+                transition: .25s;
+                
+                
+                
+                
+}
+
+.add{
+    font-family: 'Rye', cursive;
+    margin-right: 5px;
+}
+
+
+  
+  .top-right-div:hover {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    transition: .25s;
+    border-left: 8px solid rgb(54, 61, 255);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: rgba(255, 255, 255, 0.882);
+  }
+.top-right-div h1{
+                    font-family: cursive;
+}
+
+.bottom-right-div{
+                
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 5px rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  padding: 10px;
+  transition: .25s;
+  
+  
+}
+  .bottom-right-div:hover {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    animation-duration: 0.25s;
+    border-left: 8px solid rgb(54, 61, 255);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+.bottom-right-div h1{
+                    font-family: cursive;
+}
+
+
+
+
+.hr{
+        height: 3px;
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.185);
+        border-radius: 5px;
+        margin-bottom: 15px;
+}
+
+.top-left-div{
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 5px rgba(0, 0, 0, 0.19);
+                border-radius: 10px;
+                padding: 10px;
+                transition: .25s;
+                
+}
+.top-left-div h1{
+  
+  font-family: cursive;
+  font-weight: 500;
+}
+
+
+.top-left-div:hover {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    animation-duration: 0.25s;
+    border-left: 8px solid rgb(54, 61, 255);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+.bottom-left-div{
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 5px rgba(0, 0, 0, 0.19);
+                border-radius: 10px;
+                padding: 10px;
+                transition: .25s;
+                
+}
+.bottom-left-div h1{
+  font-family: cursive;
+                
+}
+
+.bottom-left-div:hover {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    animation-duration: 0.25s;
+    border-left: 8px solid rgb(54, 61, 255);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+.title{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 32px;
+}
+
+.time{
+            font-family: fantasy;
+            font-size: 30px;
+            text-align: center;
+            
+}
+
+.form-in{
+            width: 40%;
+            
+}
+
+
+.liStyle{
+          font-size: 32px;
+          font-weight: 00;
+          font-family: 'Kalam', cursive;
+          text-align: left;
+          
+          
+}
+
+.listToDo{
+            list-style: none;
+            align-items: center;
+            
+}
+
+.listToDo li{
+  list-style: none;
+  background-color:#0062ffd7;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  padding:0px 15px;
+  margin-bottom: 7px;
+  
+
+}
+.listToDo li:hover{
+  background-color:#0062ff79;
+}
+.doonee li{
+              list-style: none;
+              background-color:#14a44eed;
+              color: rgb(0, 0, 0);
+              border-radius: 20px;
+              padding:0px 15px;
+              margin-bottom: 7px;
+              
+}
+.doonee li:hover{
+  background-color:#14a44e97;
+}
+/* sm(small)   576px
+   md(meduim)  768px
+   lg          992px  
+   xl          1200px  
+    */ 
+
+    @media only screen and (min-width:300px) and (max-width:576px) {
+
+
+      h1{
+        font-size: 20px;
+      }
+      .title{
+        
+        font-size: 15px;
+    }
+
+    .time{
+      font-size: 20px;
+    }
+
+    .doonee li{
+      margin-right: 7px;
+      font-size:25px ;
+  }
+    .listToDo li{
+      margin-right: 7px;
+      font-size:25px ;
+  }
+  .top-left-div .title{
+    font-size: 7.6px;
+}
+      
+  }
+  @media only screen and (min-width:576px) and (max-width:768px) {
+  
+  
+    h1{
+      font-size: 25px;
+    }
+
+    .title{
+        
+      font-size: 25px;
+  }
+  .doonee li{
+    margin-right: 7px;
+    font-size:25px ;
+}
+  .listToDo li{
+    margin-right: 7px;
+    font-size:25px ;
+}
+.top-left-div .title{
+  font-size: 18px;
+}
+  }
+  @media only screen and (min-width:768px) and (max-width:992px) {
+  
+    h1{
+      font-size: 25px;
+    }
+
+    .title{
+        
+      font-size: 20px;
+  }
+  .doonee li{
+    margin-right: 7px;
+    font-size:25px ;
+}
+  .listToDo li{
+    margin-right: 7px;
+    font-size:25px ;
+}
+.top-left-div .title{
+                        font-size: 18px;
+}
+
+  
+  }
+  @media only screen and (min-width:992px) and (max-width:1800px) {
+  
+    h1{
+      font-size: 25px;
+    }
+
+    .title{
+        
+      font-size: 25px;
+  }
+
+  .doonee li{
+    margin-right: 7px;
+    font-size:25px ;
+}
+  .listToDo li{
+    margin-right: 7px;
+    font-size:25px ;
+}
+
+
+  }
